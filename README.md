@@ -1,4 +1,5 @@
 🎾 Tennis Ball Detection from Video using YOLO
+
 📌 Overview
 
 This project presents a real-time tennis ball detection system built using the YOLO object detection architecture.
@@ -18,6 +19,7 @@ Lightweight and scalable pipeline
 
 Suitable for single-camera setups
 
+
 🛠️ Tech Stack
 
 Programming Language: Python
@@ -30,7 +32,9 @@ Computer Vision: OpenCV
 
 Dataset Format: YOLO annotation format
 
+
 📁 Dataset Description
+
 
 This project uses video-based data for tennis ball detection.
 Input videos are first split into individual frames, and each frame is annotated using the YOLO bounding box format.
@@ -45,7 +49,9 @@ Frames extracted from videos at fixed intervals
 
 Annotations generated per frame for tennis ball localization
 
+
 🏷️ Annotation Format (YOLO)
+
 
 Each frame has a corresponding label file with the same filename.
 
@@ -56,7 +62,9 @@ All values are normalized between 0 and 1
 
 class_id = 0 represents the tennis ball
 
+
 📂 Sample Dataset Structure
+
 data/
 ├── videos_sample/
 │   └── tennis_demo.mp4
@@ -68,8 +76,10 @@ data/
 └── labels_sample/
     ├── synframe78.txt
     ├── synframe102.txt
+    
 
 ⚙️ Installation
+
 
 Clone the repository and install dependencies:
 
@@ -97,7 +107,9 @@ Real-time detection suitable for live video analysis
 
 (Sample output images/videos can be added here)
 
+
 🔮 Future Scope
+
 
 Multi-object detection (players, racket, court lines)
 
@@ -109,7 +121,9 @@ Deployment as a web or mobile application
 
 Support for multiple camera angles
 
+
 ⚠️ Notes
+
 
 Full training dataset is not included due to size constraints
 
@@ -117,9 +131,11 @@ Only sample videos and frames are provided
 
 Full dataset can be shared externally upon request
 
+
 📜 License
 
 This project is for educational and research purposes.
+
 
 👤 Author
 
